@@ -1,4 +1,4 @@
-package com.rmcgo.hibernate.helloworld;
+package com.rmcgo.hibernate.entity;
 
 import java.sql.Blob;
 import java.util.Date;

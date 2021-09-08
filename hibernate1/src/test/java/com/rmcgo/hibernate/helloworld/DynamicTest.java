@@ -1,6 +1,6 @@
 package com.rmcgo.hibernate.helloworld;
 
-import org.hibernate.Hibernate;
+import com.rmcgo.hibernate.entity.News;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,10 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Blob;
 import java.util.Date;
 
 /**
@@ -40,7 +37,11 @@ public class DynamicTest {
 
 	@Test
 	public void testBlob() throws IOException {
-
+		double sum = 0.0;
+		for (double i = 1; i <= 100; i++) {
+			sum += 1 / i;
+		}
+		System.out.println(sum);
 	}
 
 	@Test

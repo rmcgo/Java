@@ -36,6 +36,8 @@
 
         <!--关联mapping file-->
         <mapping resource="News.hbm.xml"></mapping>
+        <mapping resource="Order.hbm.xml"></mapping>
+        <mapping resource="Customer.hbm.xml"></mapping>
 
     </session-factory>
 

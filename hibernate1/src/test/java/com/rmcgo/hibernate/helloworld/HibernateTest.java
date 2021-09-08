@@ -1,5 +1,6 @@
 package com.rmcgo.hibernate.helloworld;
 
+import com.rmcgo.hibernate.entity.News;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -8,7 +9,6 @@ import org.hibernate.jdbc.Work;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import sun.util.resources.es.CurrencyNames_es_ES;
 
 import java.sql.Connection;
 import java.sql.SQLException;
