@@ -4,10 +4,14 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.jdbc.Work;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import sun.util.resources.es.CurrencyNames_es_ES;
 
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.Date;
 
 /**
@@ -31,6 +35,55 @@ public class HibernateTest {
 		transaction.commit();
 		session.close();
 		sessionFactory.close();
+	}
+
+	@Test
+	public void testDoWork() {
+		session.doWork(new Work() {
+			public void execute(Connection connection) throws SQLException {
+				System.out.println(connection);
+			}
+		});
+	}
+
+	@Test
+	public void testEvict() {
+		News news = session.get(News.class, 1);
+		News news2 = session.get(News.class, 4);
+		news.setTitle("news1");
+		news2.setTitle("news2");
+		session.evict(news);
+	}
+
+	@Test
+	public void testDelete() {
+//		News news = new News("helloworld", "rmcgo", new Date());
+//		news.setId(3);
+		News news = session.find(News.class, 2);
+		session.delete(news);
+	}
+
+	// 临时对象用save，游离态用update（有OID）
+	@Test
+	public void testSaveOrUpdate() {
+		News news = new News("CCC", "rmc", new Date());
+		news.setId(199);
+		session.saveOrUpdate(news);
+	}
+
+	// 更新游离态时需要使用update，持久化的不用，因为commit操作之前会执行一次flush操作
+	@Test
+	public void testUpdate() {
+		News news = session.get(News.class, 1);
+
+		transaction.commit();
+		session.close();
+
+		session = sessionFactory.openSession();
+		transaction = session.beginTransaction();
+
+		news.setAuthor("oracle");
+		session.update(news);
 	}
 
 	//lazy

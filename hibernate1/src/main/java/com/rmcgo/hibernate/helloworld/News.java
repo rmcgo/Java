@@ -1,5 +1,6 @@
 package com.rmcgo.hibernate.helloworld;
 
+import java.sql.Blob;
 import java.util.Date;
 
 /**
@@ -11,6 +12,10 @@ public class News {
 	private String author;
 
 	private Date date;
+
+	private String content;
+
+	private Blob image;
 
 	public News() {}
 
@@ -50,6 +55,22 @@ public class News {
 
 	public void setDate(Date date) {
 		this.date = date;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Blob getImage() {
+		return image;
+	}
+
+	public void setImage(Blob image) {
+		this.image = image;
 	}
 
 	@Override

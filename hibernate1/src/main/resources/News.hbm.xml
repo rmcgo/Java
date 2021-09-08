@@ -4,7 +4,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.rmcgo.hibernate.helloworld.News">
+    <class name="com.rmcgo.hibernate.helloworld.News" dynamic-update="true">
         <id name="id" type="java.lang.Integer">
             <generator class="native"></generator>
         </id>
@@ -14,6 +14,10 @@
         <property name="author" type="java.lang.String"></property>
 
         <property name="date" type="java.util.Date"></property>
+
+        <property name="content" type="clob"></property>
+
+        <property name="image" type="blob"></property>
     </class>
 
 </hibernate-mapping>
