@@ -1,6 +1,5 @@
-package com.rmcgo.five;
+package com.rmcgo.five.ten;
 
-import java.time.LocalDate;
 import java.util.Objects;
 
 public class Manager extends Employee{

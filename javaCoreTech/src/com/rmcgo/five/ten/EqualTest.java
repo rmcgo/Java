@@ -1,4 +1,4 @@
-package com.rmcgo.five;
+package com.rmcgo.five.ten;
 
 public class EqualTest {
 	public static void main(String[] args) {
