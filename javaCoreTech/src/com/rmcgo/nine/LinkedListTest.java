@@ -1,9 +1,7 @@
 package com.rmcgo.nine;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
-
 /**
  * this program demonstrates operations on linked lists.
  */
@@ -46,14 +44,3 @@ public class LinkedListTest {
 		System.out.println(a);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
