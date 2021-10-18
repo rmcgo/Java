@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm4/algorithm4.iml" filepath="$PROJECT_DIR$/algorithm4/algorithm4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headfirst_design/headfirst_design.iml" filepath="$PROJECT_DIR$/headfirst_design/headfirst_design.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernate1/hibernate1.iml" filepath="$PROJECT_DIR$/hibernate1/hibernate1.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaCoreTech/javaCoreTech.iml" filepath="$PROJECT_DIR$/javaCoreTech/javaCoreTech.iml" />
     </modules>
