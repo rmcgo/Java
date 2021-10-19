@@ -10,11 +10,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../Environment/maven_repository/algs4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/algs4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/../../../../Environment/maven_repository/algs4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/algs4.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

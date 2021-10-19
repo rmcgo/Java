@@ -1,5 +1,8 @@
 package hello_design;
 
+import hello_design.inter_face.FlyBehavior;
+import hello_design.inter_face.QuackBehavior;
+
 public abstract class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
