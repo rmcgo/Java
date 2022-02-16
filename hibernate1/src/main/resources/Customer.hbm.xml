@@ -4,7 +4,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.rmcgo.hibernate.entity.Customer" table="CUSTOMERS">
+    <class name="main.rmcgo.hibernate.entity.Customer" table="CUSTOMERS">
         <id name="customerId" type="java.lang.Integer">
             <generator class="native"></generator>
         </id>

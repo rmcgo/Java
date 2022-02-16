@@ -4,14 +4,14 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.rmcgo.hibernate.entity.Order" table="ORDERS">
+    <class name="main.rmcgo.hibernate.entity.Order" table="ORDERS">
         <id name="orderId" type="java.lang.Integer">
             <generator class="native"></generator>
         </id>
 
         <property name="orderName" type="java.lang.String"></property>
 
-        <many-to-one name="customer" class="com.rmcgo.hibernate.entity.Customer" column="CUSTOMER_ID"/>
+        <many-to-one name="customer" class="main.rmcgo.hibernate.entity.Customer" column="CUSTOMER_ID"/>
 
     </class>
 
