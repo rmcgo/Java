@@ -1,4 +1,4 @@
-package main.chapter4;
+package chapter4;
 
 /**
  * 阶乘
