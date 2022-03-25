@@ -10,9 +10,14 @@
         <module name="hibernate1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="algorithms4" target="8" />
-      <module name="hibernate1" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="algorithm4" target="11" />
+      <module name="atguigu" target="11" />
+      <module name="headfirst_design" target="11" />
+      <module name="hibernate1" target="11" />
+      <module name="HOW2J" target="11" />
+      <module name="javaCoreTech" target="11" />
+      <module name="mldn" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

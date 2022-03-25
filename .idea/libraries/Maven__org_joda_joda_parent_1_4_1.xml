@@ -1,13 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.joda:joda-parent:1.4.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/joda/joda-parent/1.4.1/joda-parent-1.4.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/joda/joda-parent/1.4.1/joda-parent-1.4.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/joda/joda-parent/1.4.1/joda-parent-1.4.1-sources.jar!/" />
-    </SOURCES>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

@@ -1,7 +1,5 @@
 package chapter10.demo;
 
-import com.sun.tools.javac.util.StringUtils;
-
 public class Singleton2 {
 	private static Singleton2 instance;
 
