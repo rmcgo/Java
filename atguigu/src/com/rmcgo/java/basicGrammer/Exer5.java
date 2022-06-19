@@ -1,4 +1,4 @@
-package com.rmcgo.java;
+package com.rmcgo.java.basicGrammer;
 
 public class Exer5 {
 	public static void main(String[] args) {
