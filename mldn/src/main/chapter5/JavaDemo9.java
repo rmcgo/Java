@@ -8,7 +8,7 @@ public class JavaDemo9 {
 	}
 }
 
-class Book {
+class Book3 {
 	private String title;                        // 【普通成员属性】保存图书名称
 	private static int count = 0;                // 【静态成员属性】保存对象个数
 
@@ -17,7 +17,7 @@ class Book {
 	 *
 	 * @param title 要设置的title属性内容
 	 */
-	public Book(String title) {
+	public Book3(String title) {
 		this.title = title;                        // 保存title内容
 		count++;                                // 对象个数累加
 		System.out.println("第" + count + "本图书创建出来。");
