@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.slf4j:slf4j-simple:1.7.21">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.8.5/maven-local-repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.8.5/maven-local-repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Environment/apache-maven-3.8.5/maven-local-repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/maven_repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
