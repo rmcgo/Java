@@ -19,7 +19,5 @@ public class TestDemo4 {
 
 		String[] array = {"1","2","3","4","5"};
 //		String join = StringUtils.join(array, "\",\"");
-		new Gson
-		System.out.println(join);
 	}
 }
