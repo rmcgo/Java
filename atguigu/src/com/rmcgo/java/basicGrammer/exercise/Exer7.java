@@ -1,4 +1,4 @@
-package com.rmcgo.java.basicGrammer;
+package com.rmcgo.java.basicGrammer.exercise;
 
 import java.util.Scanner;
 

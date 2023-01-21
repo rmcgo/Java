@@ -1,4 +1,4 @@
-package com.rmcgo.java.basicGrammer;
+package com.rmcgo.java.basicGrammer.testdemo;
 
 /**
  * 数字xxx的百位、十位、个位分别是多少？

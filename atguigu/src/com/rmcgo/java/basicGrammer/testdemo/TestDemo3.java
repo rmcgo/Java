@@ -1,4 +1,4 @@
-package com.rmcgo.java.basicGrammer;
+package com.rmcgo.java.basicGrammer.testdemo;
 
 import java.util.logging.SimpleFormatter;
 

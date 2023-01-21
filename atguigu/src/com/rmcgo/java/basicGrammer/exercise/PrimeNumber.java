@@ -1,4 +1,4 @@
-package com.rmcgo.java.basicGrammer;
+package com.rmcgo.java.basicGrammer.exercise;
 
 /**
  * 求：输出100以内所有质数
